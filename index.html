@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBPAGE</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mingzat&family=Pacifico&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <img class="logo" src="./images/logo.jpg" alt="no image">
+            <ul>
+                <li class="list-item"><a class="links" href="#home">Home</a></li>
+                <li class="list-item"><a class="links" href="#about">About</a></li>
+                <li class="list-item"><a class="links" href="#skills">Skills</a></li>
+                <li class="list-item"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="homecontent">
+                <h1 class="animate__animated animate__pulse" id="username">I'm NIHAL <Span id="lname">ERAMBATH</Span></h1>
+                <p id="userdetials">
+                    This is my official portfolio website to describe all <br> details and work experiance in web
+                    development.
+                </p>
+                <a id="download" href="./Mushthaq cp.pdf" download>Download CV</a>
+            </div>
+            <div class="homeimage">
+                <img id="shape" class="group1" src="./images/shape.jpg.png" alt="no image">
+                <img id="lady" class="group1" src="./images/lady.jpg.png" alt="no image">
+            </div>
+        </section>
+        <section id="about">
+            <div class="sectionhead">
+                <h1 class="mainhead">About me</h1>
+                <span class="subhead">Indroduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img class="img1" src="./images/about.jpg" alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dignissimos unde sequi,
+                        iste, nihil autem at itaque distinctio incidunt veritatis corporis a inventore ipsum quos sit
+                        vel, aliquid aperiam delectus!
+                    </p>
+                    <div class="information">
+                    <div class="infobox">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Nihal Erambath</span>
+                    </div>
+                    <div class="infobox">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>7034591573</span>
+                    </div>
+                    <div class="infobox">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>nihal@gmail.com</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbars">
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">89%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">76%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">82%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercent">69%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillimage">
+                    <img class="myskills" src="./images/second.jpg" alt="no image">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My contacts</span>
+            </div>
+            <div class="iconcollection">
+                <div class="icons">
+                    <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://github.com/login" target="_blank"><i class="fa-brands fa-github-alt brands"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p id="copyright">&copy; My portfolio website -june 2024, All rightResserved to &reg; Nihal Erambath</p>
+            <div class="icons arrow">
+                <a href="#container"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
